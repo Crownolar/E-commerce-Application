@@ -1,0 +1,285 @@
+/* section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginContainer{
+    width: 55%;
+    height: 80%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+
+}
+
+.textContainer{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.headline{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.imageContainer{
+    width: 50%;
+    height: 100%;
+    background-color: floralwhite;
+}
+
+.inputs{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputs .texts{
+    width: 100%;
+    height: 20%;
+}
+
+.inputs .texts input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 10px;
+    border-radius: 3px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+}
+
+.check{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.inputs .checkbox{
+    width: 15px;
+    height: 15px;
+}
+
+.inputs span{
+    padding-top: 23px;
+    padding-left: 10px;
+}
+
+.loginbtn{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: baseline;
+}
+
+.loginbtn button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(40, 40, 253);
+    border: none;
+    border-radius: 5px;
+    color: white;
+} */
+
+section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loginContainer {
+    width: 55%;
+    height: 80%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+  }
+  
+  .textContainer {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .headline {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  .imageContainer {
+    width: 50%;
+    height: 100%;
+    background-color: floralwhite;
+    object-fit: contain;
+  }
+  
+  .inputs {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .inputs .texts {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    position: relative;
+  }
+
+  .inputs .texts .user{
+    display: flex;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 30%;
+    font-size: 20px;
+    color: #4c6be6;
+  }
+  
+  .inputs .texts input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding-left: 30px;
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #ccc;
+    background-color: transparent;
+  }
+  
+  .check {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .inputs .checkbox {
+    width: 15px;
+    height: 15px;
+  }
+  
+  .inputs span {
+    padding-top: 23px;
+    padding-left: 10px;
+  }
+  
+  .loginbtn {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: baseline;
+  }
+  
+  .loginbtn button {
+    width: 120px;
+    height: 40px;
+    background-color: #4c6be6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  
+
+/* Styling for the login form */
+
+.loginContainer1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .textContainer1 {
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .headline1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .inputs1 {
+    margin-bottom: 20px;
+  }
+  
+  .texts1 {
+    margin-bottom: 10px;
+  }
+  
+  .texts1 input[type="email"],
+  .texts1 input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .loginbtn1 {
+    text-align: center;
+  }
+  
+  .loginbtn1 button {
+    padding: 10px 20px;
+    /* background-color: #4caf50; */
+    background-color: rgb(40, 40, 253);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .imageContainer1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .imageContainer1 img {
+    max-width: 100%;
+  }
+  
+  .checkbox {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  /* Additional styles for error messages */
+  p.errorMsg {
+    color: red;
+    font-size: 10px;
+    margin-left: 5px;
+  }
+
+  
+  

@@ -1,0 +1,58 @@
+.title{
+    width: 100%;
+    height: 10%;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding-top: 10px;
+}
+
+.cartConatiner{
+    width: 90%;
+    height: 90vh;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.cartHead{
+    width: 100%;
+    height: 10%;
+    background-color: lightgray;
+    display: flex;
+}
+
+.prod{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.PQSub{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bodypage{
+    width: 100%;
+    height: 60%;
+    /* background-color: gainsboro; */
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.itempart1{
+    width: 100%;
+    height: max-content;
+    flex-wrap: wrap;
+    background-color: red;
+}

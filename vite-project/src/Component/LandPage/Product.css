@@ -1,0 +1,73 @@
+.ProductCard{
+    width: 80%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    /* display: flex; */
+}
+
+.HeaderCard{
+    width: 30%;
+    height: 20%;
+    /* background-color: dodgerblue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.HeaderCard .Line {
+    width: 40%;
+    height: 2%;
+}
+
+.List{
+    width: 100%;
+    height: 10%;
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.navleft{
+    width: 90%;
+    height: 100%;
+    /* background-color: mintcream; */
+    display: flex;
+    align-items: center;
+}
+
+.navleft ul {
+    display: flex;
+    gap: 20px;
+}
+
+.navleft ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.navright{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: beige; */
+    justify-content: center;
+}
+
+.navright button {
+    width: 100%;
+    height: 60%;
+    border: none;
+    background-color: rgb(249, 250, 250);
+    border: 2px solid black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.PRoductItem{
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
